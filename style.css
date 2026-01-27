@@ -5,3 +5,47 @@ body{
 h1{
     text-align: center;
 }
+.btn-basketbols {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-basketbols:hover {
+    background-color: #2470b2;
+}
+h1 {
+    color: #0c004a;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: #0c004a;
+    font-size: 24px;
+}
+
+ul {
+    line-height: 1;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
