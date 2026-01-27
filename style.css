@@ -5,18 +5,8 @@ body{
 h1{
     text-align: center;
 }
-.btn-basketbols {
-    background-color: #1565c0;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    cursor: pointer;
-}
 
-.btn-basketbols:hover {
-    background-color: #2470b2;
-}
+
 h1 {
     color: #0c004a;
     font-size: 32px;
@@ -24,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #0c004a;
+    color: #1b00a2;
     font-size: 24px;
 }
 
@@ -38,7 +28,7 @@ ul li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #00b4ba;
     color: #ffffff;
     margin: 0;
     padding: 20px;
