@@ -1,34 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-</html>
-   <head>
-         <meta charset="utf-8"/>
-         <link rel="stylesheet" href="style.css"/>
-         <h1>Sporta popularizācija</h1>
-   </head>
+<html lang="lv">
+<head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Sporta popularizācija</title>
+</head>
 <body>
-<h2>Top 10 populārākie sporta veidi</h2>
-   <p>
-       1.Futbols-4 miljardi
-      <br>2.Krikets-2.5 miljardi 
-      <br>3.Basketbols-2 miljardi
-      <br>4.Lauka hokejs-1 miljardi
-      <br> 5.Teniss-1 miljardi
-      <br>6.Volejbols-900 miljoni
-      <br>7.Galda teniss-850 miljoni
-      <br>8.Beisbols-500 miljoni
-      <br>9.Amerikāņu futbols-400 miljoni
-      <br>10.Golfs-350 miljoni
-   </p>
-   <img src="https://tv3cdn.lv/2024/11/d32f-6738582636f73-scaled.jpg" width="250" height="150">
-   <img src="https://i.tiesraides.lv/1200x0s/pictures/2021-08-11/9f39_krikets_olimpiskasspeles.jpg" width="250" height="150">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvIEu7L6AuhSIpbFUfRImuzHTsGc5F5o5rw&s" width="250" height="150">
-  <br> <a href="https://lattelecomrigamarathon.lv/10-popularakie-sporta-veidi-pasaule/" target="_blank">Saite lai skatītu vietu kur dabūju šos datus.</a>
-  <p>
-<button
-onclick="poga()">Basketbols</button></p>
+  <div class="container">
+    <div class="header">
+      <h1>Sporta popularizācija</h1>
+    </div>
 
+    <div class="content">
+      <div class="list">
+        <h2>Top 10 populārākie sporta veidi</h2>
+        <ul>
+          <li>1. Futbols - 4 miljardi</li>
+          <li>2. Krikets - 2.5 miljardi</li>
+          <li>3. Basketbols - 2 miljardi</li>
+          <li>4. Lauka hokejs - 1 miljards</li>
+          <li>5. Teniss - 1 miljards</li>
+          <li>6. Volejbols - 900 miljoni</li>
+          <li>7. Galda teniss - 850 miljoni</li>
+          <li>8. Beisbols - 500 miljoni</li>
+          <li>9. Amer. futbols - 400 miljoni</li>
+          <li>10. Golfs - 350 miljoni</li>
+        </ul>
+        <p><a href="https://lattelecomrigamarathon.lv/10-popularakie-sporta-veidi-pasaule/" target="_blank">Avots: Top 10 sporta veidi</a></p>
+      </div>
 
-<script src="script.js"></script>
+      <div class="gallery">
+        <div class="card card1">
+          <img src="https://tv3cdn.lv/2024/11/d32f-6738582636f73-scaled.jpg" alt="sport1">
+        </div>
+        <div class="card card2">
+          <img src="https://i.tiesraides.lv/1200x0s/pictures/2021-08-11/9f39_krikets_olimpiskasspeles.jpg" alt="sport2">
+        </div>
+        <div class="card card3">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvIEu7L6AuhSIpbFUfRImuzHTsGc5F5o5rw&s" alt="sport3">
+        </div>
+      </div>
+<br><div class="actions">
+        <button class="button button4" id="basketBtn" onclick="poga()">Basketbols</button>
+      </div>
+      
+
+      
+    </div>
+  </div>
+
+ <script src="script.js"></script>
 </body>
 </html>

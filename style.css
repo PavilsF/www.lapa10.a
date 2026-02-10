@@ -40,37 +40,93 @@ p {
     margin-bottom: 20px;
 }
 
-.poga {
-  border: none;
-  color: white;
-  padding: 16px 32px;
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 18px;
+  align-items: start;
+}
+.list {
+  background: rgba(255,255,255,0.03);
+  padding: 12px;
+  border-radius: 6px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.gallery img { width: 100%; height: auto; border-radius:6px; display:block; }
+.card {
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.card img { border-radius:6px; display:block; }
+.card1 { background: #ffd6d6; }
+.card2 { background: #fff7c2; }
+.card3 { background: #d6ffd6; }
+
+
+.list { background: #ffffff; color: #000000; }
+.list h2, .list ul { color: inherit; }
+.actions { margin-top: 12px; }
+.source { margin-top: 8px; }
+
+.button {
+  border: 3px solid #000000;
+  background-color: rgb(248, 93, 240);
+  color: #000000;
+  padding: 12px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 8px 6px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
-.poga1 {
-  background-color: white;
+.button4 {
+  background-color: rgb(248, 93, 240);
   color: black;
-  border: 2px solid #04AA6D;
+  border: 3px solid #000000;
 }
 
-.poga1:hover {
-  background-color: #04AA6D;
+.button4:hover {
+  background-color: #000000;
   color: white;
 }
 
-.poga2 {
-  background-color: white;
+
+.button1 {
+  background-color: rgb(248, 93, 240);
   color: black;
-  border: 2px solid #008CBA;
+  border: 3px solid #000000;
 }
 
-.poga2:hover {
-  background-color: #008CBA;
+.button1:hover {
+  background-color: #000000;
   color: white;
 }
+
+.button2 {
+  background-color: rgb(248, 93, 240);
+  color: black;
+  border: 3px solid #000000;
+}
+
+.button2:hover {
+  background-color: #000000;
+  color: white;
+}
+
